@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/btnAppointment" android:text="Đặt lịch khám" />
+    <Button android:id="@+id/btnRecords" android:text="Hồ sơ bệnh án" />
+    <Button android:id="@+id/btnPrescriptions" android:text="Đơn thuốc" />
+    <Button android:id="@+id/btnTests" android:text="Xét nghiệm" />
+    <Button android:id="@+id/btnPayment" android:text="Thanh toán" />
+</GridLayout>
+
